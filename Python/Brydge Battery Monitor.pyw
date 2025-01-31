@@ -55,9 +55,11 @@ def update_tray_icon(icon: pystray.Icon):
     else:
         icon_name = f"{battery_percentage}.ico"
         icon_path = os.path.join(os.path.dirname(__file__), "Icons", icon_name)
+        
         if not os.path.isfile(icon_path):
             print(f"Error: Icon file {icon_path} not found!")
             icon_path = os.path.join(os.path.dirname(__file__), "Icons", "error.ico")
+            
     if os.path.isfile(icon_path):
         img = Image.open(icon_path)
         icon.icon = img
@@ -73,12 +75,18 @@ def start_tray_application():
     if not os.path.isfile(placeholder_icon_path):
         print("Placeholder icon not found; please place an 'error.ico' in the Icons folder.")
         return
+
     menu = (item("Exit", exit_application),)
+
     image = Image.open(placeholder_icon_path)
-    tray_icon = pystray.Icon("Brydge SP+ Battery Monitor", image, menu=menu)
-    tray_icon.title = "Brydge SP+ Battery Monitor"
+
+    tray_icon = pystray.Icon("Brydge Battery Monitor", image, menu=menu)
+    tray_icon.title = "Brydge Battery Monitor"
+    
     updater_thread = Thread(target=background_updater, args=(tray_icon,), daemon=True)
     updater_thread.start()
+
     tray_icon.run()
+
 if __name__ == "__main__":
     start_tray_application()
