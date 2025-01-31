@@ -1,10 +1,10 @@
-# 📡 Brydge SP+ Battery Monitor
-*A lightweight system tray app to monitor and display Brydge SP+ battery percentage*
+# 📡 Brydge Battery Monitor
+*A lightweight system tray app to monitor and display Brydge battery percentage*
 
 ![image](https://github.com/user-attachments/assets/9d18a24f-bd81-4b33-a612-a4159aebcc90)
 
 ## 🚀 Overview
-Brydge SP+ Battery Monitor is a simple and efficient system tray application that keeps track of your **Brydge SP+ keyboard battery percentage**. The app updates the tray icon dynamically to reflect the current battery level, allowing you to check it at a glance.
+Brydge Battery Monitor is a simple and efficient system tray application that keeps track of your **Brydge keyboard battery percentage**. The app updates the tray icon dynamically to reflect the current battery level, allowing you to check it at a glance.
 
 ## 🔧 Features
 - ✅ **Real-time battery percentage display** in the system tray  
@@ -24,7 +24,7 @@ Brydge SP+ Battery Monitor is a simple and efficient system tray application tha
 2. Clone this repository (example commands):
     
     git clone https://github.com/JoshuaALawrence/Brydge-SP-Battery-Monitor.git  
-    cd Brydge-SP-Battery-Monitor
+    cd Brydge-Battery-Monitor
     
 3. Install dependencies (once the Python version is available):
     
@@ -46,4 +46,4 @@ Pull requests are welcome! If you’d like to contribute, fork the repo and subm
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
-🔋 *Keep track of your Brydge SP+ battery with ease!*
+🔋 *Keep track of your Brydge battery with ease!*
