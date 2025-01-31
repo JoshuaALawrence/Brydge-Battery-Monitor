@@ -11,7 +11,6 @@ Brydge SP+ Battery Monitor is a simple and efficient system tray application tha
 - ✅ **Lightweight & minimal** – runs efficiently in the background  
 - ✅ **No UI, only a tray icon**  
 - ✅ **No unnecessary clutter**  
-- ✅ **Future-proof:** Currently built with **AutoHotkey (AHK)**, soon transitioning to **Python** for enhanced stability  
 
 ## 🖥️ Installation
 
