@@ -20,12 +20,12 @@ Brydge SP+ Battery Monitor is a simple and efficient system tray application tha
 2. Make sure **AutoHotkey** is installed (download from [here](https://www.autohotkey.com/)).
 3. Run the `.ahk` script or compile it to an `.exe` for standalone use.
 
-### 🔹 Python Version (Coming Soon)
+### 🔹 Python Version
 1. Install Python 3.10+ from [python.org](https://www.python.org/).
 2. Clone this repository (example commands):
     
-    git clone https://github.com/yourusername/brydge-sp-battery-monitor.git  
-    cd brydge-sp-battery-monitor
+    git clone https://github.com/JoshuaALawrence/Brydge-SP-Battery-Monitor.git  
+    cd Brydge-SP-Battery-Monitor
     
 3. Install dependencies (once the Python version is available):
     
@@ -39,12 +39,6 @@ Brydge SP+ Battery Monitor is a simple and efficient system tray application tha
 ## ⚙️ Usage
 - The app runs in the background and updates the **system tray icon** to display the current battery percentage.
 - Right-click the tray icon for **exit options**
-
-## 🛠️ Roadmap
-- ✅ **AHK Version** (Initial Release)
-- 🔄 **Transition to Python**
-- 🔜 **Optimized tray icon updates**
-- 🔜 **Improved error handling**
 
 ## 🤝 Contributing
 Pull requests are welcome! If you’d like to contribute, fork the repo and submit a PR with your improvements.
