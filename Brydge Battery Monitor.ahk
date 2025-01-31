@@ -1,7 +1,7 @@
 #Persistent
 #SingleInstance Force
 
-Menu, Tray, Tip, Brydge SP+ Battery Monitor
+Menu, Tray, Tip, Brydge Battery Monitor
 
 CheckBatteryStatus() {
     PowerShellCommand := "
