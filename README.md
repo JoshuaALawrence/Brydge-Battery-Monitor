@@ -15,7 +15,7 @@ Brydge Battery Monitor is a simple and efficient system tray application that ke
 ## 🖥️ Installation
 
 ### 🔹 AHK Version (Current)
-1. Download the latest release from [GitHub Releases](#).
+1. Download the latest release from [GitHub Releases](https://github.com/JoshuaALawrence/Brydge-Battery-Monitor/releases).
 2. Make sure **AutoHotkey** is installed (download from [here](https://www.autohotkey.com/)).
 3. Run the `.ahk` script or compile it to an `.exe` for standalone use.
 
