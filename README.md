@@ -191,7 +191,7 @@ Pull requests are welcome. Fork the repo and submit a PR with your improvements.
 
 ## License
 
-Licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+Licensed under the **APGL-3.0**. See [LICENSE](LICENSE) for details.
 
 <div align="center">
 
