@@ -1,0 +1,99 @@
+name: "🐛 Bug report"
+description: Report a problem with Brydge Battery Monitor
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug report! Please fill out the
+        sections below so we can reproduce and fix the issue quickly.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you start
+      options:
+        - label: I have searched [existing issues](https://github.com/JoshuaALawrence/Brydge-Battery-Monitor/issues) and this has not already been reported.
+          required: true
+        - label: I am running the latest version of Brydge Battery Monitor.
+          required: true
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Implementation
+      description: Which version are you using?
+      options:
+        - AutoHotkey (.ahk)
+        - Python (.pyw)
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Start the app with '...'
+        2. Connect/disconnect the Brydge keyboard
+        3. Observe the tray icon
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened? Does the tray show the error icon?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots of the tray icon or error to help explain the problem.
+    validations:
+      required: false
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      placeholder: "e.g. Windows 11 23H2"
+    validations:
+      required: true
+  - type: input
+    id: keyboard-model
+    attributes:
+      label: Brydge keyboard model
+      placeholder: "e.g. Brydge 12.3 Pro+"
+    validations:
+      required: false
+  - type: input
+    id: runtime-version
+    attributes:
+      label: AutoHotkey / Python version
+      placeholder: "e.g. AutoHotkey v1.1.37 or Python 3.11"
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
